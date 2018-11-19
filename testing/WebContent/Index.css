@@ -22,11 +22,13 @@ a:visited {
     text-decoration: none;
 }
 
+
+
 body {
-    background-image: url("https://www.cdc.gov/features/summer-travel-abroad/summer-travel-abroad_1024px.jpg");
+	background-image: url("https://www.cdc.gov/features/summer-travel-abroad/summer-travel-abroad_1024px.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-color: #f2f2f2;
     margin: 70px;
 }
