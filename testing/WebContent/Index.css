@@ -121,6 +121,7 @@ h1 {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    box-shadow: 5px 10px;
 }
 
 .Forsidebtn {
