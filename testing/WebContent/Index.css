@@ -34,6 +34,9 @@ p:first-letter{
 
 .Rejserne img{
     border:1px solid;
+    width:480px;
+    height:307px;
+    
 }
 
 body {
@@ -82,8 +85,9 @@ h1 {
 }
 
 .Tokyo {
-    float: right;
+    position: absolute;
     width:50%;
+    right:1px;
     
 }
 
@@ -106,9 +110,9 @@ h1 {
 }
 
 .Berlin {
-    float: left;
+    position: absolute;
     width: 50%;
-    
+    right:1px;
 }
 
 
@@ -125,9 +129,9 @@ h1 {
 }
 
 .Paris {
-    float: left;
+    position: absolute;
     width: 50%;
-    
+    right:1px;
 }
 
 
