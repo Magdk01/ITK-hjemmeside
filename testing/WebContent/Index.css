@@ -21,7 +21,18 @@ a:visited {
     background-color: transparent;
     text-decoration: none;
 }
+strong {
+	font-weight: bold;
+}
 
+p:first-letter{
+	font-size: 400%;
+	float: left;
+	line-height: 80%;
+	padding-right: 5px;
+}
+
+}
 
 body {
     background-image: url("https://www.cdc.gov/features/summer-travel-abroad/summer-travel-abroad_1024px.jpg");
