@@ -22,19 +22,6 @@ a:visited {
     text-decoration: none;
 }
 
-.Rejserne img {
-    width:460;
-    height:307px;
-    border: 1px solid;
-    -webkit-column-count: 2;
-    -moz-column-count: 3;
-    column-count: 2;
-    -webkit-column-gap:40px;
-    -moz-column-gap: 40px;
-    column-gap:40px;
-}
-
-
 body {
     background-image: url("https://www.cdc.gov/features/summer-travel-abroad/summer-travel-abroad_1024px.jpg");
     background-blend-mode: overlay;
