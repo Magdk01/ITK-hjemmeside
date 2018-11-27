@@ -32,6 +32,8 @@ p:first-letter{
 	padding-right: 5px;
 }
 
+.Rejserne img{
+    border:1px solid;
 }
 
 body {
@@ -70,13 +72,13 @@ h1 {
 
 .Barcalona {
     float: left;
-    width: 50%;
+    width:50%;
     
 }
 
 .Tokyo {
-    float: left;
-    width: 50%;
+    float: right;
+    width:50%;
     
 }
 
@@ -85,6 +87,11 @@ h1 {
     content: "";
     display: table;
     clear: both;
+}
+
+.L2 img{
+    width:480px;
+    height:307px;
 }
 
 .Firenze {
