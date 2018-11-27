@@ -32,6 +32,10 @@ p:first-letter{
 	padding-right: 5px;
 }
 
+.Rejserne img{
+    border:1px solid;
+}
+
 body {
     background-image: url("https://www.cdc.gov/features/summer-travel-abroad/summer-travel-abroad_1024px.jpg");
     background-blend-mode: overlay;
@@ -73,7 +77,7 @@ h1 {
 }
 
 .Tokyo {
-    float: left;
+    float: right;
     width:50%;
     
 }
@@ -83,6 +87,11 @@ h1 {
     content: "";
     display: table;
     clear: both;
+}
+
+.L2 img{
+    width:auto;
+    height:307;
 }
 
 .Firenze {
