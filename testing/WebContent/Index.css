@@ -88,7 +88,7 @@ h1 {
     position: absolute;
     width:50%;
     right:1px;
-    z-index: -1;
+    z-index: 1;
     
 }
 
@@ -114,7 +114,7 @@ h1 {
     position: absolute;
     width: 50%;
     right:1px;
-    z-index: -1;
+    z-index: 1;
 }
 
 
@@ -134,7 +134,7 @@ h1 {
     position: absolute;
     width: 50%;
     right:1px;
-    z-index: -1;
+    z-index: 1;
 }
 
 
@@ -166,6 +166,7 @@ h1 {
     top: 0;
     box-shadow: 5px 5px 8px #d9d9d9, 10px 10px 8px #f2f2f2;
     opacity: 0.95;
+    z-index:15;
 }
 
 .Forsidebtn {
