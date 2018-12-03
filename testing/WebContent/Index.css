@@ -24,7 +24,27 @@ a:visited {
 strong {
 	font-weight: bold;
 }
+.duer{
+	width: 100%;
+	text-align: justify;
+}
 
+.duer img{
+	width: 40%;
+	padding-right: 20px;
+	dispaly: block;
+	margin: 0 auto;
+}
+
+
+.buer{
+	width: 100%;
+}
+
+.buer img{
+	width: 30%;
+	padding-right: 20px;
+}
 .L1 p:first-letter{
 	font-size: 400%;
 	float: left;
