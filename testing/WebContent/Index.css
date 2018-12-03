@@ -151,15 +151,16 @@ h1 {
 .header{
 	padding-bottom: 20px;
 	display: block;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-	 
-	
+  
 }
 
+  
+
 .header img{
-	height: 20%;
+	height: 120px;
 	align-content: center;
 }
 .menu {
