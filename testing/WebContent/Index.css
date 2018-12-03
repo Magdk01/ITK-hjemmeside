@@ -25,11 +25,15 @@ strong {
 	font-weight: bold;
 }
 
-p:first-letter{
+.L1 p:first-letter{
 	font-size: 400%;
 	float: left;
 	line-height: 80%;
 	padding-right: 5px;
+}
+
+.Rejserne p{
+    width:480px;
 }
 
 .Rejserne img{
@@ -40,7 +44,7 @@ p:first-letter{
 }
 
 body {
-    background-image: url("https://www.cdc.gov/features/summer-travel-abroad/summer-travel-abroad_1024px.jpg");
+    
     background-blend-mode: overlay;
     background-size: 100%;
     background-attachment: fixed;
