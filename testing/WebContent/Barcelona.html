@@ -7,8 +7,11 @@
     <!-- Stylesheet som giver os billederne til facebook-,twitter-,linkedn-, og github ikonerne.-->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 <meta charset="ISO-8859-1">
+<!-- Scaling til computer skærm af brugeren -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Barcelona</title>
 </head>
+
 <body background="Pictures\Barcelona1.jpg">
 
      <!-- Overskrift -->
@@ -72,7 +75,7 @@
     </div>
 </div>
 
-
+<!-- Overskrift på siden -->
 <div class=title>
 
 <h1>Barcelona</h1>
@@ -80,7 +83,7 @@
 </div>
 
 <p> I Barcelona så vi mange kulturelle ting men vi havde særligt fokus på duerne og deres effekt på kulturen, dette kan bla. ses i alle vores billeder.</p>
-
+<!-- Billederserie, CSS står for opsætning -->
 <div class=duer>
             <img src="Pictures\Due1.jpg" alt="Billede af due">
             <img src="Pictures\Due2.jpg" alt="Billede af due og dreng">
@@ -88,87 +91,116 @@
             
 </div>
            
-
-
 <p> Vi undersøgte også arkitekturen i Barcelona, med særligt fokus på kædelinjer:
-
 <div class=buer>
 <img src="Pictures\bue1.jpg">
 <img src="Pictures\bue2.jpg">
 <img src="Pictures\bue3.jpg">
-
-
 </div>
+
 <br>
 <br>
+
 <strong><span style="padding-top:60px"> Nedenfor kan vores meget stramme program ses som det var givet til os:</span></strong>
 
-<p>Onsdag d. 7. november</p>
-<ul>
-<li>08:30: Vi mødes i Københavns Lufthavn ved 7-eleven mellem terminal 2 og terminal 3.</li>
-<li>11:40: Afrejse fra København, terminal 2 med Norwegian, D85571. </li>
-<li>14:30: Ankomst til Barcelona Lufthavn, terminal 2. Vi tager herefter en Aerobus til Plaza Cataluña nær hotellet.</li>
-<li>15:30: Ankomst til TOC Hostel i Barcelona, Gran Via de Les Corts Catalanes, 580, Tlf.: +34 934 53 44 25.</li>
-<li>16:15: Byvandring med Marie Bonavida til udkigspunktet Turó del la rovira.</li>
-<li>19:00: Aftensmad i grupper. Hjemme på hotellet senest kl. 23.</li>
- </ul>
- Torsdag d. 8. november
- <ul>
+<!-- Knapper der kan åbne undermenuer således at hver dag kan ses individuelt -->
+<button class="collapsible">Program&nbsp;&nbsp;<i class="arrow down"></i></button>
+<!-- Det content der er under knapperne -->
+<div class="content">
+	<button class="collapsible">Onsdag d. 7. november</button>
+	<div class="content">
+	<ul>
+	<li>08:30: Vi mødes i Københavns Lufthavn ved 7-eleven mellem terminal 2 og terminal 3.</li>
+	<li>11:40: Afrejse fra København, terminal 2 med Norwegian, D85571. </li>
+	<li>14:30: Ankomst til Barcelona Lufthavn, terminal 2. Vi tager herefter en Aerobus til Plaza Cataluña nær hotellet.</li>
+	<li>15:30: Ankomst til TOC Hostel i Barcelona, Gran Via de Les Corts Catalanes, 580, Tlf.: +34 934 53 44 25.</li>
+	<li>16:15: Byvandring med Marie Bonavida til udkigspunktet Turó del la rovira.</li>
+	<li>19:00: Aftensmad i grupper. Hjemme på hotellet senest kl. 23.</li>
+	 </ul>
+	 </div>
+	 
+	<button class="collapsible">Torsdag d. 8. november</button>
+	<div class="content">
+	<ul>
+	<li>9:00: Morgenmad på hotellet. Mødes i receptionen og afgang kl. 9.</li>
+	<li>10:30: Det gotiske kvarter - Catedral de Barcelona, Palau Güell og møde med Adrian. Efterfølgende frokost i grupper.</li>
+	<li>12:15: Vi mødes ved La Sagrada de Familia. Bemærk, at det tager ca. en time fra Palau Güell at gå.</li>
+	<li>13:30: Hospital de la Santa Creu i Sant Pau. Gruppebillede og udsigtspunkt.</li>
+	<li>15:55: Vi mødes ved Park Güell. Bemærk, at det tager ca. ½ time fra Hospital de Sant Pau. Vi tager samlet tilbage til hotellet.</li>
+	<li>19:00: Aftensmad i grupper. Hjemme på hotellet senest kl. 23.</li>
+	 </ul>
+	 </div>
+	 
+	<button class="collapsible">Fredag d. 9. november</button>
+	<div class="content">
+	 <ul>
+	<li>9.00: Morgenmad på hotellet. Mødes i receptionen og afgang kl. 9:30.</li>
+	<li>10:00: Sepulcral Romana og Templo de Augusto. Gruppebillede.</li>
+	<li>12:30: Science Museum CosmoCaixa. Bemærk, at det tager ca. 1 time at gå fra hotellet. Offentlig transport med rute V13 er valgfrit.</li>
+	<li>16:00: (Valgfrit) Kvarteret omkring hotellet. Fx Casa Milá ”La Pedrera”, La Casa Batlló eller Palau de la Musicá - kan også bare ses udefra.</li>
+	<li>19:00: Aftensmad i grupper. Hjemme på hotellet senest kl. 24.</li>
+	<li>21-22:30: (Valgfrit) Autumn Night Magic Fountain Show. Plaça de Carles Buïgas, 1, Barcelona. Bemærk, at det tager ca. ½ time fra hotellet.</li>
+	 </ul>
+	 </div>
+	 
+	 <button class="collapsible">Lørdag d. 10. november</button>
+	<div class="content">
+	 <ul>
+	<li>08-08:45: Morgenmad på hotellet. Mødes i receptionen og afgang kl. 9.</li>
+	<li>09:30: Det Catalanske Museum, Plaça de Pau Vila, 3, Barcelona</li>
+	<li>11:00: Gåtur og Mercat del Born. </li>
+	<li>12:00: (Valgfrit) Montjuïc bjerget. Find evt. frokost på vejen dertil på Mercat de Sant Antoni.</li>
+	<li>14:00: Fotosafari. Find så mange buer og kædelinjer i bybilledet som muligt. </li>
+	<li>18:00: Fælles aftensmad. Hjemme på hotellet senest kl. 23. Husk at pakke her!</li>
+	 </ul>
+	 </div>
+	 
+	 <button class="collapsible">Søndag d. 11. november</button>
+	<div class="content">
+	 <ul>
+	<li>04-04:30: Vågn op! Vi får morgenmad med af hotellet. Vi mødes i receptionen. Afgang kl. 4.30.</li>
+	<li>04:45: Med Aerobus fra Plaza Cataluña. Bussen kører kl. 5.00!</li>
+	<li>07:00: Check-in skal være afsluttet!</li>
+	<li>08:00: Afrejse fra Barcelona terminal 2 med Norwegian, D85570.</li>
+	<li>11:00: Ankomst til København Lufthavn, terminal 3. Tak for rejsen</li>
+	</ul>
+	</div>
+</div>
 
-<li>9:00: Morgenmad på hotellet. Mødes i receptionen og afgang kl. 9.</li>
-<li>10:30: Det gotiske kvarter - Catedral de Barcelona, Palau Güell og møde med Adrian. Efterfølgende frokost i grupper.</li>
-<li>12:15: Vi mødes ved La Sagrada de Familia. Bemærk, at det tager ca. en time fra Palau Güell at gå.</li>
-<li>13:30: Hospital de la Santa Creu i Sant Pau. Gruppebillede og udsigtspunkt.</li>
-<li>15:55: Vi mødes ved Park Güell. Bemærk, at det tager ca. ½ time fra Hospital de Sant Pau. Vi tager samlet tilbage til hotellet.</li>
-<li>19:00: Aftensmad i grupper. Hjemme på hotellet senest kl. 23.</li>
- </ul>
- Fredag d. 9. november
- <ul>
+<!-- Script der styrer knapperne -->
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
 
-<li>9.00: Morgenmad på hotellet. Mødes i receptionen og afgang kl. 9:30.</li>
-<li>10:00: Sepulcral Romana og Templo de Augusto. Gruppebillede.</li>
-<li>12:30: Science Museum CosmoCaixa. Bemærk, at det tager ca. 1 time at gå fra hotellet. Offentlig transport med rute V13 er valgfrit.</li>
-<li>16:00: (Valgfrit) Kvarteret omkring hotellet. Fx Casa Milá ”La Pedrera”, La Casa Batlló eller Palau de la Musicá - kan også bare ses udefra.</li>
-<li>19:00: Aftensmad i grupper. Hjemme på hotellet senest kl. 24.</li>
-<li>21-22:30: (Valgfrit) Autumn Night Magic Fountain Show. Plaça de Carles Buïgas, 1, Barcelona. Bemærk, at det tager ca. ½ time fra hotellet.</li>
- </ul>
- Lørdag d. 10. november
- <ul>
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 
-<li>08-08:45: Morgenmad på hotellet. Mødes i receptionen og afgang kl. 9.</li>
-<li>09:30: Det Catalanske Museum, Plaça de Pau Vila, 3, Barcelona</li>
-<li>11:00: Gåtur og Mercat del Born. </li>
-<li>12:00: (Valgfrit) Montjuïc bjerget. Find evt. frokost på vejen dertil på Mercat de Sant Antoni.</li>
-<li>14:00: Fotosafari. Find så mange buer og kædelinjer i bybilledet som muligt. </li>
-<li>18:00: Fælles aftensmad. Hjemme på hotellet senest kl. 23. Husk at pakke her!</li>
- </ul>
- Søndag d. 11. november
- <ul>
-
-<li>04-04:30: Vågn op! Vi får morgenmad med af hotellet. Vi mødes i receptionen. Afgang kl. 4.30.</li>
-<li>04:45: Med Aerobus fra Plaza Cataluña. Bussen kører kl. 5.00!</li>
-<li>07:00: Check-in skal være afsluttet!</li>
-<li>08:00: Afrejse fra Barcelona terminal 2 med Norwegian, D85570.</li>
-<li>11:00: Ankomst til København Lufthavn, terminal 3. Tak for rejsen</li>
-</ul>
-
-
-
+<!-- Footer der viser relevante informationer og links -->
 <footer class="footer-distributed">
     
     <div class="footer-right">
         
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <a href="#"><i class="fa fa-github"></i></a>
+        <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="http://www.github.com" target="_blank"><i class="fa fa-github"></i></a>
         
     </div>
     
     <div class="footer-left">
         
         <p class="footer-links">
-        <a href="#">Hjem</a>
+        <a href="Index.html">Hjem</a>
         ·
         <a href="#">Blog</a>
         ·
